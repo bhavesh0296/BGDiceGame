@@ -11,8 +11,8 @@
 		4096A4AF26DFF0EE00CC87F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096A4AE26DFF0EE00CC87F9 /* SceneDelegate.swift */; };
 		4096A4B126DFF0EE00CC87F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096A4B026DFF0EE00CC87F9 /* ViewController.swift */; };
 		4096A4B426DFF0EE00CC87F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4096A4B226DFF0EE00CC87F9 /* Main.storyboard */; };
-		4096A4B626DFF0F400CC87F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4096A4B526DFF0F400CC87F9 /* Assets.xcassets */; };
-		4096A4B926DFF0F400CC87F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4096A4B726DFF0F400CC87F9 /* LaunchScreen.storyboard */; };
+		4096A4C526DFF20C00CC87F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4096A4C426DFF20C00CC87F9 /* Assets.xcassets */; };
+		4096A4C726DFF22900CC87F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4096A4C626DFF22900CC87F9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		4096A4AE26DFF0EE00CC87F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4096A4B026DFF0EE00CC87F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4096A4B326DFF0EE00CC87F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4096A4B526DFF0F400CC87F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4096A4B826DFF0F400CC87F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4096A4BA26DFF0F400CC87F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4096A4C426DFF20C00CC87F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4096A4C626DFF22900CC87F9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				4096A4B226DFF0EE00CC87F9 /* Main.storyboard */,
-				4096A4B726DFF0F400CC87F9 /* LaunchScreen.storyboard */,
+				4096A4C626DFF22900CC87F9 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 		4096A4C326DFF11800CC87F9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4096A4B526DFF0F400CC87F9 /* Assets.xcassets */,
+				4096A4C426DFF20C00CC87F9 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,8 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4096A4B926DFF0F400CC87F9 /* LaunchScreen.storyboard in Resources */,
-				4096A4B626DFF0F400CC87F9 /* Assets.xcassets in Resources */,
+				4096A4C726DFF22900CC87F9 /* LaunchScreen.storyboard in Resources */,
+				4096A4C526DFF20C00CC87F9 /* Assets.xcassets in Resources */,
 				4096A4B426DFF0EE00CC87F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,14 +185,6 @@
 				4096A4B326DFF0EE00CC87F9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4096A4B726DFF0F400CC87F9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4096A4B826DFF0F400CC87F9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
